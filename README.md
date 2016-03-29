@@ -3,7 +3,7 @@
 <b> Quarto exercício do Curso de Orientação a Objetos com Java, oferecido pelo Instituto Tecnológico da Aeronáutica 
 em parceria com o Coursera. </b>
 
-<b>Enunciado: </b>
+<b>Enunciado: </b> </br>
 Crie uma classe chamada Produto que deve possuir um nome, um código e um preço. Sobrescreva os métodos equals() e hashCode() de Object (veja seção sobre esses métodos), de forma a serem considerados iguais instancias de Produto que possuam o mesmo código.
 
 Crie uma classe chamada ProdutoComTamanho que estenda a classe Produto. Essa classe deve possuir uma informação adicional de tamanho. Um exemplo seria o tamanho de uma roupa ou a numeração de um calçado. Método equals() e hashCode() devem ser sobrescritos de forma que um produto com mesmo código e tamanhos diferentes são considerados diferentes.
